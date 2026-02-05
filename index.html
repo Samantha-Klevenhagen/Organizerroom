@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Room Organizer - Space & Furniture Planner</title>
+  </head>
+<body>
+
+  <header>
+    <h1>Room Organizer</h1>
+    <p>
+      A simple planning tool for people living in small or shared spaces.
+      This app is designed to help students, renters, and young adults think through
+      how their room can support their daily life — not just fit furniture.
+    </p>
+    <p>
+      Instead of focusing on perfect measurements or professional design,
+      Room Organizer encourages realistic choices based on what you already own,
+      what you value most, and the limits of your space.
+    </p>
+  </header>
+
+  <main>
+
+  <section>
+    <h2>Room Profile</h2>
+    <p>
+      Start by describing the physical limits of your room.
+      Many people struggle with layouts because they underestimate how quickly
+      furniture fills a small space.
+    </p>
+    <p>
+      This section helps you think about your room as a container with real boundaries.
+    </p>
+
+    <form>
+      <input type="number" name="room-length" placeholder="Room length (feet)"><br><br>
+
+      <input type="number" name="room-width" placeholder="Room width (feet)"><br><br>
+
+      <select name="room-type">
+        <option value="">Select room type</option>
+        <option value="dorm">Dorm room</option>
+        <option value="bedroom">Small bedroom</option>
+        <option value="studio">Studio apartment</option>
+        <option value="largeroom">Large bedroom</option>
+      </select>
+    </form>
+  </section>
+
+  <section>
+    <h2>Furniture Inventory</h2>
+    <p>
+      People often buy furniture before thinking about how it fits with what they
+      already own. This section flips that process.
+    </p>
+    <p>
+      Listing your furniture helps prevent overcrowding and unnecessary purchases.
+    </p>
+
+    <form>
+      <input type="text" name="furniture-item" placeholder="Furniture item (bed, desk, dresser, etc.)"><br><br>
+
+      <input type="text" name="furniture-size" placeholder="Approximate size (L × W in feet)"><br><br>
+
+      <label>
+        <input type="checkbox" name="owned">
+        I already own this item
+      </label>
+    </form>
+  </section>
+
+  <section>
+    <h2>Style & Use Preferences</h2>
+    <p>
+      Small spaces rarely support everything equally.
+      Choosing a main priority helps users make intentional trade-offs.
+    </p>
+    <p>
+      This reflects how people actually live — some need storage,
+      others need focus, and others want a space to socialize.
+    </p>
+
+    <form>
+      <fieldset>
+        <legend>Primary room priority</legend>
+
+        <label>
+          <input type="radio" name="priority" value="storage">
+          Storage and organization
+        </label><br>
+
+        <label>
+          <input type="radio" name="priority" value="study">
+          Study or work space
+        </label><br>
+
+        <label>
+          <input type="radio" name="priority" value="hangout">
+          Relaxing or hangout area
+        </label>
+      </fieldset>
+    </form>
+  </section>
+
+  <section>
+    <h2>Layout Suggestions</h2>
+    <p>
+      Based on the room size, furniture list, and priorities,
+      the app would suggest general layout strategies.
+    </p>
+
+    <figure>
+      <img src="rhttps://i.pinimg.com/736x/00/b3/21/00b321ac886e0984ff91d795dd173f41.jpg"
+           alt="Example layout of a small bedroom with bed, desk, and storage">
+    </figure>
+
+  </section>
+
+  <section>
+    <h2>Shopping List</h2>
+    <p>
+      This section highlights missing or helpful items,
+      such as compact storage, multi-use furniture,
+      or alternatives to oversized pieces.
+    </p>
+    <p>
+      The goal is to support mindful purchasing instead of impulse buying.
+    </p>
+  </section>
+
+  <section>
+    <h2>3D Model / Visual Preview</h2>
+    <p>
+      A simple visual representation helps users understand scale
+      and spacing in a way numbers alone cannot.
+    </p>
+    <p>
+      This feature is meant to reduce anxiety and increase confidence
+      before rearranging or purchasing furniture.
+    </p>
+    <p>
+      For some examples and design inspiration, explore
+    <a href="https://www.roomandboard.com/ideas-advice/get-inspired/small-space-inspiration">
+       Small-space room layout inspiration from Room & Board
+    </a>,
+    which shows a gallery of modern room layouts and furniture arrangements that maximize function in compact living spaces.
+    </p>
+  </section>
+
+  </main>
+
+  <footer><br>
+    <p>Project 1 – Room Organizer</p>
+    <p>Created by Samantha Klevenhagen</p>
+  </footer>
+
+</body>
+</html>
